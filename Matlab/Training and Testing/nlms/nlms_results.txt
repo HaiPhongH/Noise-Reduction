@@ -1,0 +1,392 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+Relation:     nlms_dataset
+Instances:    8097
+Attributes:   79
+              MEAN_MFCC1
+              MEAN_MFCC2
+              MEAN_MFCC3
+              MEAN_MFCC4
+              MEAN_MFCC5
+              MEAN_MFCC6
+              MEAN_MFCC7
+              MEAN_MFCC8
+              MEAN_MFCC9
+              MEAN_MFCC10
+              MEAN_MFCC11
+              MEAN_MFCC12
+              MEAN_MFCC13
+              MEAN_MFCCD1
+              MEAN_MFCCD2
+              MEAN_MFCCD3
+              MEAN_MFCCD4
+              MEAN_MFCCD5
+              MEAN_MFCCD6
+              MEAN_MFCCD7
+              MEAN_MFCCD8
+              MEAN_MFCCD9
+              MEAN_MFCCD10
+              MEAN_MFCCD11
+              MEAN_MFCCD12
+              MEAN_MFCCD13
+              MEAN_MFCCDD1
+              MEAN_MFCCDD2
+              MEAN_MFCCDD3
+              MEAN_MFCCDD4
+              MEAN_MFCCDD5
+              MEAN_MFCCDD6
+              MEAN_MFCCDD7
+              MEAN_MFCCDD8
+              MEAN_MFCCDD9
+              MEAN_MFCCDD10
+              MEAN_MFCCDD11
+              MEAN_MFCCDD12
+              MEAN_MFCCDD13
+              STD_MFCC1
+              STD_MFCC2
+              STD_MFCC3
+              STD_MFCC4
+              STD_MFCC5
+              STD_MFCC6
+              STD_MFCC7
+              STD_MFCC8
+              STD_MFCC9
+              STD_MFCC10
+              STD_MFCC11
+              STD_MFCC12
+              STD_MFCC13
+              STD_MFCCD1
+              STD_MFCCD2
+              STD_MFCCD3
+              STD_MFCCD4
+              STD_MFCCD5
+              STD_MFCCD6
+              STD_MFCCD7
+              STD_MFCCD8
+              STD_MFCCD9
+              STD_MFCCD10
+              STD_MFCCD11
+              STD_MFCCD12
+              STD_MFCCD13
+              STD_MFCCDD1
+              STD_MFCCDD2
+              STD_MFCCDD3
+              STD_MFCCDD4
+              STD_MFCCDD5
+              STD_MFCCDD6
+              STD_MFCCDD7
+              STD_MFCCDD8
+              STD_MFCCDD9
+              STD_MFCCDD10
+              STD_MFCCDD11
+              STD_MFCCDD12
+              STD_MFCCDD13
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: normal_breath, strong_breath
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.5094 * (normalized) MEAN_MFCC1
+ +      -0.7289 * (normalized) MEAN_MFCC2
+ +       0.403  * (normalized) MEAN_MFCC3
+ +      -0.2844 * (normalized) MEAN_MFCC4
+ +      -0.2084 * (normalized) MEAN_MFCC5
+ +      -0.0963 * (normalized) MEAN_MFCC6
+ +       0.1642 * (normalized) MEAN_MFCC7
+ +       0.2629 * (normalized) MEAN_MFCC8
+ +      -0.176  * (normalized) MEAN_MFCC9
+ +      -0.6774 * (normalized) MEAN_MFCC10
+ +       0.214  * (normalized) MEAN_MFCC11
+ +      -0.2382 * (normalized) MEAN_MFCC12
+ +       0.1267 * (normalized) MEAN_MFCC13
+ +      -0.227  * (normalized) MEAN_MFCCD1
+ +      -0.227  * (normalized) MEAN_MFCCD2
+ +      -0.227  * (normalized) MEAN_MFCCD3
+ +      -0.227  * (normalized) MEAN_MFCCD4
+ +      -0.227  * (normalized) MEAN_MFCCD5
+ +       0.3548 * (normalized) MEAN_MFCCD6
+ +      -0.226  * (normalized) MEAN_MFCCD7
+ +       0.1158 * (normalized) MEAN_MFCCD8
+ +       0.0319 * (normalized) MEAN_MFCCD9
+ +       0.0319 * (normalized) MEAN_MFCCD10
+ +       0.0319 * (normalized) MEAN_MFCCD11
+ +       0.0319 * (normalized) MEAN_MFCCD12
+ +       0.0319 * (normalized) MEAN_MFCCD13
+ +       0.4028 * (normalized) MEAN_MFCCDD1
+ +       0.4028 * (normalized) MEAN_MFCCDD2
+ +       0.4028 * (normalized) MEAN_MFCCDD3
+ +       0.4028 * (normalized) MEAN_MFCCDD4
+ +       0.4028 * (normalized) MEAN_MFCCDD5
+ +      -0.7282 * (normalized) MEAN_MFCCDD6
+ +       0.2347 * (normalized) MEAN_MFCCDD7
+ +      -0.3485 * (normalized) MEAN_MFCCDD8
+ +      -0.0779 * (normalized) MEAN_MFCCDD9
+ +      -0.0779 * (normalized) MEAN_MFCCDD10
+ +      -0.0779 * (normalized) MEAN_MFCCDD11
+ +      -0.0779 * (normalized) MEAN_MFCCDD12
+ +      -0.0779 * (normalized) MEAN_MFCCDD13
+ +       0.1629 * (normalized) STD_MFCC1
+ +       0.2598 * (normalized) STD_MFCC2
+ +       0.0852 * (normalized) STD_MFCC3
+ +       0.1568 * (normalized) STD_MFCC4
+ +       0.1143 * (normalized) STD_MFCC5
+ +      -0.15   * (normalized) STD_MFCC6
+ +       0.0716 * (normalized) STD_MFCC7
+ +       0.0762 * (normalized) STD_MFCC8
+ +       0.1265 * (normalized) STD_MFCC9
+ +      -0.062  * (normalized) STD_MFCC10
+ +      -0.0867 * (normalized) STD_MFCC11
+ +       0.0419 * (normalized) STD_MFCC12
+ +      -0.0305 * (normalized) STD_MFCC13
+ +      -0.1588 * (normalized) STD_MFCCD1
+ +      -0.1588 * (normalized) STD_MFCCD2
+ +      -0.1588 * (normalized) STD_MFCCD3
+ +      -0.1588 * (normalized) STD_MFCCD4
+ +      -0.1588 * (normalized) STD_MFCCD5
+ +       0.154  * (normalized) STD_MFCCD6
+ +      -0.1355 * (normalized) STD_MFCCD7
+ +      -0.0366 * (normalized) STD_MFCCD8
+ +      -0.05   * (normalized) STD_MFCCD9
+ +      -0.05   * (normalized) STD_MFCCD10
+ +      -0.05   * (normalized) STD_MFCCD11
+ +      -0.05   * (normalized) STD_MFCCD12
+ +      -0.05   * (normalized) STD_MFCCD13
+ +       0.1648 * (normalized) STD_MFCCDD1
+ +       0.1648 * (normalized) STD_MFCCDD2
+ +       0.1648 * (normalized) STD_MFCCDD3
+ +       0.1648 * (normalized) STD_MFCCDD4
+ +       0.1648 * (normalized) STD_MFCCDD5
+ +       0.2527 * (normalized) STD_MFCCDD6
+ +       0.1985 * (normalized) STD_MFCCDD7
+ +       0.0667 * (normalized) STD_MFCCDD8
+ +      -0.0777 * (normalized) STD_MFCCDD9
+ +      -0.0777 * (normalized) STD_MFCCDD10
+ +      -0.0777 * (normalized) STD_MFCCDD11
+ +      -0.0777 * (normalized) STD_MFCCDD12
+ +      -0.0777 * (normalized) STD_MFCCDD13
+ +       0.5326
+
+Number of kernel evaluations: 28061 (72.427% cached)
+
+Classifier for classes: normal_breath, deep_breath
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.621  * (normalized) MEAN_MFCC1
+ +      -0.3008 * (normalized) MEAN_MFCC2
+ +       0.7481 * (normalized) MEAN_MFCC3
+ +       1.1655 * (normalized) MEAN_MFCC4
+ +      -0.2706 * (normalized) MEAN_MFCC5
+ +      -0.7698 * (normalized) MEAN_MFCC6
+ +       0.3686 * (normalized) MEAN_MFCC7
+ +       0.6306 * (normalized) MEAN_MFCC8
+ +       0.7934 * (normalized) MEAN_MFCC9
+ +      -2.9316 * (normalized) MEAN_MFCC10
+ +       1.7354 * (normalized) MEAN_MFCC11
+ +       0.1938 * (normalized) MEAN_MFCC12
+ +       0.5454 * (normalized) MEAN_MFCC13
+ +      -0.4611 * (normalized) MEAN_MFCCD1
+ +      -0.4611 * (normalized) MEAN_MFCCD2
+ +      -0.4611 * (normalized) MEAN_MFCCD3
+ +      -0.4611 * (normalized) MEAN_MFCCD4
+ +      -0.4611 * (normalized) MEAN_MFCCD5
+ +      -0.4611 * (normalized) MEAN_MFCCD6
+ +      -0.8462 * (normalized) MEAN_MFCCD7
+ +      -0.4485 * (normalized) MEAN_MFCCD8
+ +       0.5689 * (normalized) MEAN_MFCCD9
+ +       0.5689 * (normalized) MEAN_MFCCD10
+ +       0.5689 * (normalized) MEAN_MFCCD11
+ +       0.5689 * (normalized) MEAN_MFCCD12
+ +       0.5689 * (normalized) MEAN_MFCCD13
+ +       0.5353 * (normalized) MEAN_MFCCDD1
+ +       0.5353 * (normalized) MEAN_MFCCDD2
+ +       0.5353 * (normalized) MEAN_MFCCDD3
+ +       0.5353 * (normalized) MEAN_MFCCDD4
+ +       0.5353 * (normalized) MEAN_MFCCDD5
+ +      -0.6849 * (normalized) MEAN_MFCCDD6
+ +       0.7997 * (normalized) MEAN_MFCCDD7
+ +       0.9446 * (normalized) MEAN_MFCCDD8
+ +      -0.1481 * (normalized) MEAN_MFCCDD9
+ +      -0.1481 * (normalized) MEAN_MFCCDD10
+ +      -0.1481 * (normalized) MEAN_MFCCDD11
+ +      -0.1481 * (normalized) MEAN_MFCCDD12
+ +      -0.1481 * (normalized) MEAN_MFCCDD13
+ +       1.5823 * (normalized) STD_MFCC1
+ +      -0.7592 * (normalized) STD_MFCC2
+ +       0.0292 * (normalized) STD_MFCC3
+ +       0.4391 * (normalized) STD_MFCC4
+ +      -0.1236 * (normalized) STD_MFCC5
+ +      -0.0333 * (normalized) STD_MFCC6
+ +       1.2384 * (normalized) STD_MFCC7
+ +      -0.0015 * (normalized) STD_MFCC8
+ +       0.0443 * (normalized) STD_MFCC9
+ +       0.8805 * (normalized) STD_MFCC10
+ +       0.7457 * (normalized) STD_MFCC11
+ +       1.3374 * (normalized) STD_MFCC12
+ +       1.0217 * (normalized) STD_MFCC13
+ +      -0.7134 * (normalized) STD_MFCCD1
+ +      -0.7134 * (normalized) STD_MFCCD2
+ +      -0.7134 * (normalized) STD_MFCCD3
+ +      -0.7134 * (normalized) STD_MFCCD4
+ +      -0.7134 * (normalized) STD_MFCCD5
+ +      -1.6797 * (normalized) STD_MFCCD6
+ +      -0.1532 * (normalized) STD_MFCCD7
+ +       0.5057 * (normalized) STD_MFCCD8
+ +      -0.0934 * (normalized) STD_MFCCD9
+ +      -0.0934 * (normalized) STD_MFCCD10
+ +      -0.0934 * (normalized) STD_MFCCD11
+ +      -0.0934 * (normalized) STD_MFCCD12
+ +      -0.0934 * (normalized) STD_MFCCD13
+ +       0.6301 * (normalized) STD_MFCCDD1
+ +       0.6301 * (normalized) STD_MFCCDD2
+ +       0.6301 * (normalized) STD_MFCCDD3
+ +       0.6301 * (normalized) STD_MFCCDD4
+ +       0.6301 * (normalized) STD_MFCCDD5
+ +       0.3971 * (normalized) STD_MFCCDD6
+ +      -0.7139 * (normalized) STD_MFCCDD7
+ +      -1.1447 * (normalized) STD_MFCCDD8
+ +      -0.2885 * (normalized) STD_MFCCDD9
+ +      -0.2885 * (normalized) STD_MFCCDD10
+ +      -0.2885 * (normalized) STD_MFCCDD11
+ +      -0.2885 * (normalized) STD_MFCCDD12
+ +      -0.2885 * (normalized) STD_MFCCDD13
+ -       0.2489
+
+Number of kernel evaluations: 156147 (70.169% cached)
+
+Classifier for classes: strong_breath, deep_breath
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.4955 * (normalized) MEAN_MFCC1
+ +       1.2295 * (normalized) MEAN_MFCC2
+ +      -1.135  * (normalized) MEAN_MFCC3
+ +       3.7599 * (normalized) MEAN_MFCC4
+ +       0.7772 * (normalized) MEAN_MFCC5
+ +      -0.8333 * (normalized) MEAN_MFCC6
+ +       0.39   * (normalized) MEAN_MFCC7
+ +       0.4513 * (normalized) MEAN_MFCC8
+ +       0.2118 * (normalized) MEAN_MFCC9
+ +       1.396  * (normalized) MEAN_MFCC10
+ +      -0.1462 * (normalized) MEAN_MFCC11
+ +       1.7648 * (normalized) MEAN_MFCC12
+ +       1.0805 * (normalized) MEAN_MFCC13
+ +       0.0777 * (normalized) MEAN_MFCCD1
+ +       0.0777 * (normalized) MEAN_MFCCD2
+ +       0.0777 * (normalized) MEAN_MFCCD3
+ +       0.0777 * (normalized) MEAN_MFCCD4
+ +       0.0777 * (normalized) MEAN_MFCCD5
+ +      -0.7941 * (normalized) MEAN_MFCCD6
+ +      -0.2384 * (normalized) MEAN_MFCCD7
+ +      -1.7388 * (normalized) MEAN_MFCCD8
+ +       0.6681 * (normalized) MEAN_MFCCD9
+ +       0.6681 * (normalized) MEAN_MFCCD10
+ +       0.6681 * (normalized) MEAN_MFCCD11
+ +       0.6681 * (normalized) MEAN_MFCCD12
+ +       0.6681 * (normalized) MEAN_MFCCD13
+ +      -0.6377 * (normalized) MEAN_MFCCDD1
+ +      -0.6377 * (normalized) MEAN_MFCCDD2
+ +      -0.6377 * (normalized) MEAN_MFCCDD3
+ +      -0.6377 * (normalized) MEAN_MFCCDD4
+ +      -0.6377 * (normalized) MEAN_MFCCDD5
+ +       0.7984 * (normalized) MEAN_MFCCDD6
+ +      -0.4382 * (normalized) MEAN_MFCCDD7
+ +       3.2884 * (normalized) MEAN_MFCCDD8
+ +       0.2854 * (normalized) MEAN_MFCCDD9
+ +       0.2854 * (normalized) MEAN_MFCCDD10
+ +       0.2854 * (normalized) MEAN_MFCCDD11
+ +       0.2854 * (normalized) MEAN_MFCCDD12
+ +       0.2854 * (normalized) MEAN_MFCCDD13
+ +       0.7659 * (normalized) STD_MFCC1
+ +      -0.9912 * (normalized) STD_MFCC2
+ +      -0.6949 * (normalized) STD_MFCC3
+ +      -0.925  * (normalized) STD_MFCC4
+ +       0.956  * (normalized) STD_MFCC5
+ +      -1.1954 * (normalized) STD_MFCC6
+ +      -0.74   * (normalized) STD_MFCC7
+ +       0.8484 * (normalized) STD_MFCC8
+ +      -1.6698 * (normalized) STD_MFCC9
+ +       0.9158 * (normalized) STD_MFCC10
+ +       0.0572 * (normalized) STD_MFCC11
+ +       0.57   * (normalized) STD_MFCC12
+ +       0.153  * (normalized) STD_MFCC13
+ +      -0.9712 * (normalized) STD_MFCCD1
+ +      -0.9712 * (normalized) STD_MFCCD2
+ +      -0.9712 * (normalized) STD_MFCCD3
+ +      -0.9712 * (normalized) STD_MFCCD4
+ +      -0.9712 * (normalized) STD_MFCCD5
+ +      -1.4965 * (normalized) STD_MFCCD6
+ +       0.2079 * (normalized) STD_MFCCD7
+ +      -0.7639 * (normalized) STD_MFCCD8
+ +      -0.0583 * (normalized) STD_MFCCD9
+ +      -0.0583 * (normalized) STD_MFCCD10
+ +      -0.0583 * (normalized) STD_MFCCD11
+ +      -0.0583 * (normalized) STD_MFCCD12
+ +      -0.0583 * (normalized) STD_MFCCD13
+ +       0.944  * (normalized) STD_MFCCDD1
+ +       0.944  * (normalized) STD_MFCCDD2
+ +       0.944  * (normalized) STD_MFCCDD3
+ +       0.944  * (normalized) STD_MFCCDD4
+ +       0.944  * (normalized) STD_MFCCDD5
+ +       0.5615 * (normalized) STD_MFCCDD6
+ +      -0.0579 * (normalized) STD_MFCCDD7
+ +       0.6318 * (normalized) STD_MFCCDD8
+ +      -0.008  * (normalized) STD_MFCCDD9
+ +      -0.008  * (normalized) STD_MFCCDD10
+ +      -0.008  * (normalized) STD_MFCCDD11
+ +      -0.008  * (normalized) STD_MFCCDD12
+ +      -0.008  * (normalized) STD_MFCCDD13
+ -       2.344 
+
+Number of kernel evaluations: 313802 (75.352% cached)
+
+
+
+Time taken to build model: 0.35 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.09 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        1839               92.8788 %
+Incorrectly Classified Instances       141                7.1212 %
+Kappa statistic                          0.8931
+Mean absolute error                      0.2384
+Root mean squared error                  0.3   
+Relative absolute error                 53.712  %
+Root relative squared error             63.5342 %
+Total Number of Instances             1980     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.016    0.972      1.000    0.986      0.978    0.995     0.982     normal_breath
+                 1.000    0.089    0.837      1.000    0.911      0.873    0.955     0.837     strong_breath
+                 0.784    0.000    1.000      0.784    0.879      0.842    0.898     0.858     deep_breath
+Weighted Avg.    0.929    0.034    0.939      0.929    0.927      0.900    0.951     0.896     
+
+=== Confusion Matrix ===
+
+   a   b   c   <-- classified as
+ 707   0   0 |   a = normal_breath
+   0 621   0 |   b = strong_breath
+  20 121 511 |   c = deep_breath
+
