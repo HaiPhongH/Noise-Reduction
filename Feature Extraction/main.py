@@ -193,7 +193,7 @@ def main():
     parser.add_argument(    
         '--window_length',
         type=int,
-        default=2000,
+        default=4000,
         help='Window length of each sample in ms')
     parser.add_argument(
         '--window_stride',
